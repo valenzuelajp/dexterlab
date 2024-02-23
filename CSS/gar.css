@@ -25,7 +25,7 @@ body {
 
 /* home*/
 .perPageDark{
-  height: 94vh;
+  height: 100vh;
   width: 100vw;
   padding: 50px;
   display: flex;
@@ -35,7 +35,7 @@ body {
 }
 
 .perPageLight{
-  height: 94vh;
+  height: 100vh;
   width: 100vw;
   padding: 50px;
   display: flex;
@@ -203,8 +203,8 @@ body {
 }
 
 #carousel-wrapper #image {
-  height: 240px;
-  width: 240px;
+  height: 300px;
+  width: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
