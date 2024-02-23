@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/gar.css"/>
+    <script src="JS/gar.js" defer></script>
+    <title>Valenzuela, Jhon Paul A.</title>
+</head>
+
+
+<body>
+
+    <!--navbar-->
+    <nav>
+        <a href="#" class="logo" >AL JAMES UNIVERSITY</a>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="photography.html">Photography</a></li>
+            <li><a href="#">nice</a></li>
+            <li><a href="contact.html">nice</a></li>
+        </ul>
+    </nav>
+
+    <!--carousel-wrapper-->
+    <div id="#Photography">
+
+        <div id="carousel-wrapper">
+            <div id="menu">
+                <div id="current-option">
+                    <span id="current-option-text1" data-previous-text="" data-next-text=""></span>
+                    <span id="current-option-text2" data-previous-text="" data-next-text=""></span>
+                </div>
+                <button id="previous-option"></button>
+                <button id="next-option"></button>
+            </div>
+            <div id="image"></div>
+        </div>
+    </div>
+      <!--carousel-wrapper-->
+
+</body>
+</html>
+
+<script type="text/javascript">
+    window.addEventListener("scroll"), function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky"), window.scrollY > 0;
+    }
+</script>
+

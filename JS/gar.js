@@ -1,31 +1,30 @@
 const text1_options = [
-    "Kape kape kape kape",
     "Small bb jp",
+    "Ika'y iingatan ko at aalagaan ko",
     "HaHaHaHaHaHa",
-    "Friends",
+    "Pipiliin ka sa araw-araw",
     "SM na laging traffic",
-    "Flower",
-    "Buildings",
+    "kape kape kape kape",
+    "jp time",
   ];
   const text2_options = [
-    "1sec ago lmao?",
-    "1 min. read",
-    "2 min. read",
-    "3 min. read",
-    "4 min. read",
-    "5 min. read",
-    "6 min. read",
-    "7 min. read",
+    "4 years old",
+    "Paninindigan Kita - Ben&Ben",
+    "Condo ni dex",
+    "Araw-Araw - Ben&Ben",
+    "SM Bacoor",
+    "Starbucks Tagaytay",
+    "National Museum",
   ];
   const color_options = ["#EBB9D2", "#FE9968", "#7FE0EB", "#6CE5B1"];
   const image_options = [
-    "https://valenzuelajp.github.io/jpsb.jpg",
     "https://valenzuelajp.github.io/babyjp.jpg",
-    "https://valenzuelajp.github.io/jp.jpg",
-    "https://valenzuelajp.github.io/friends.JPG",
-    "https://valenzuelajp.github.io/sm.JPG",
-    "https://valenzuelajp.github.io/flow.JPG",
-    "https://valenzuelajp.github.io/condo.JPG"
+    "images/paninindigan.png",
+    "https://valenzuelajp.github.io/condo.JPG",
+    "images/araw.png",
+    "images/sm.jpg",
+    "images/jpsb.jpg",
+    "images/jp.jpg",
   ];
   var i = 0;
   const currentOptionText1 = document.getElementById("current-option-text1");
