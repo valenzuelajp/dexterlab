@@ -83,3 +83,9 @@ optionPrevious.onclick = function () {
     carousel.classList.remove("anim-previous");
   }, 650);
 };
+
+
+function actionToggle() {
+  const action = document.querySelector('.action');
+  action.classList.toggle('active')
+}
